@@ -42,3 +42,17 @@ body{
 .fw-600{
     font-weight: 600;
 }
+
+.about-txt{
+    padding-top: 8rem;
+}
+
+.skills .icon{
+    background-color: #E5E0FF;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+.skills img{
+    width: 1.5rem;
+}
