@@ -50,6 +50,13 @@ body{
     padding-top: 8rem;
 }
 
+.skills{
+    background-color: #F7F5FF;
+}
+.skills h6{
+    color: #000;
+}
+
 .skills .icon{
     background-color: #E5E0FF;
     width: 3rem;
