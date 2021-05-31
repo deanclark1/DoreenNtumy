@@ -11,7 +11,7 @@ body{
 }
 
 .hero{
-    padding-top: 8rem;
+    padding-top: 2rem;
 }
 .hero h1, h6{
     color: #6F60C6;
@@ -42,6 +42,9 @@ body{
 .fw-600{
     font-weight: 600;
 }
+.about-img img{
+    width: 100%;
+}
 
 .about-txt{
     padding-top: 8rem;
@@ -55,4 +58,35 @@ body{
 }
 .skills img{
     width: 1.5rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .hero{
+        padding-top: 8rem;
+    }
+   
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  
 }
