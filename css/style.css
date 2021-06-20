@@ -9,6 +9,9 @@ body{
 .navbar .navbar-brand img{
     width: 3rem;
 }
+.bg-white{
+    background-color: #ffffff;
+}
 
 .hero{
     padding-top: 2rem;
@@ -43,7 +46,7 @@ body{
     font-weight: 600;
 }
 .about-img img{
-    width: 100%;
+    width: 23rem;
 }
 
 .about-txt{
@@ -65,6 +68,19 @@ body{
 }
 .skills img{
     width: 1.5rem;
+}
+
+.zoom-on-hover {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    -webkit-box-shadow: 0px 4px 27px rgb(182 190 206 / 30%);
+    box-shadow: 0px 4px 27px rgb(182 190 206 / 30%);
+    overflow: hidden;
 }
 
 /* Small devices (landscape phones, 576px and up) */
