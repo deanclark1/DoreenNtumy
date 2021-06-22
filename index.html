@@ -63,25 +63,30 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <div class="hero-image">
+                <div class="hero-image pt-4 pt-md-0">
                     <img src="./images/profile.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="container about-me" id="about-me">
+    <div class="container about-me pt-5" id="about-me">
         <div class="row">
-            <div class="col-12 col-md-6 about-img">
-                <img src="./images/doreen.png" alt="">
+            <div class="col-12 col-md-5 about-img d-none d-md-block">
+                <img src="./images/about-me.png" alt="">
             </div>
-            <div class="col-12 col-md-6 about-txt">
-                <h4>About Me</h4>
-                <p> I am a self-learning, disciplined and committed Front End Developer who implements web designs with coding languages. I am also a UI/UX Designer. I have experience with HTML, CSS, JavaScript, Bootstrap. </p>
+            <div class="col-12 col-md-7 about-txt ps-md-5">
+                <div class="">
+                    <h4>About Me</h4>
+                    <p> I am a self-learning, disciplined and committed Front End Developer who implements web designs with coding languages. I am also a UI/UX Designer. I have experience with HTML, CSS, JavaScript, Bootstrap. </p>
 
-                <p> I have worked with JavaScript frameworks: Angular. I have demonstrated a working experience in Responsive web development. I have used Content Management Systems such as WordPress. Used Git and version control systems. I also have good problem solving skills as well as Testing and Debugging skills.</p>
+                    <p> I have worked with JavaScript frameworks: Angular. I have demonstrated a working experience in Responsive web development. I have used Content Management Systems such as WordPress. Used Git and version control systems. I also have good problem solving skills as well as Testing and Debugging skills.</p>
     
-                <p> I am passionate about volunteering. I love art and photography.</p>
-                <button class="btn btn-primary">Learn More</button>
+                    <p> I am passionate about volunteering. I love art and photography.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 about-img d-block d-md-none">
+                <img src="./images/about-me.png" alt="">
             </div>
         </div>
     </div>
@@ -215,20 +220,54 @@
         <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="connect py-5">
-                   <div class="text-center pb-5">
+                    <div class="text-center pb-4">
                         <h4>Connect with me</h4>
-                   </div>
-                    <div class="d-flex justify-content-around">
+                    </div>
+                    <div class="d-flex justify-content-around py-5">
                         <a target="_blank" href="https://github.com/deanclark1"><i class="fab fa-github fa-2x"></i></a>
                         <a target="_blank" href="mailto: ntumydoreen@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/in/doreenntumy/"><i class="fab fa-linkedin-in fa-2x"></i></a>
                         <a target="_blank" href="https://www.instagram.com/doreenntumy"><i class="fab fa-instagram fa-2x"></i></a>
                         <a target="_blank" href="https://twitter.com/DoreenNtumy"><i class="fab fa-twitter fa-2x"></i></a>
                     </div>
+                    <div class="form-center">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="col-md-12">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputPassword4" class="form-label">Message</label>
+                                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" rows="5"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+    
+                        </form>
+                   </div>
+                   
+                    
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between sub-footer py-3 ">
+                <p class="my-md-4 mt-4 mb-2 fw-600"> © 2021 All rights reserved</p>
+                <p class="my-md-4 mt-4 mb-2 fw-600" style="font-size: 14px;">Designed and Built by <a href=""><span class="dean-color">Doreen Ntumy</span></a></p>
+            </div>
+        </div>
+    </footer>
 
 
 
