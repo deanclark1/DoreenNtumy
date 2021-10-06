@@ -44,10 +44,22 @@ body{
     border-color: #E5E0FF;
 }
 .btn-primary:hover{
-    color: #6F60C6;
     background-color: #E5E0FF;
     border-color: #E5E0FF;
 }
+.btn-primary:focus {
+    border-color: #e5e0ff;
+    box-shadow: 0 0 0 0.25rem rgb(215 209 248);
+}
+.btn-primary:active {
+    border-color: #e5e0ff;
+    box-shadow: 0 0 0 0.25rem rgb(215 209 248);
+    background-color: #E5E0FF;
+}
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem rgb(215 209 248);
+}
+
 .fw-600{
     font-weight: 600;
 }
