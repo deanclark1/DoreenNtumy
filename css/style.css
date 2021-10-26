@@ -105,13 +105,13 @@ h4{
 }
 
 .contact-me{
-    background-color: #F7F5FF;
+    /* background-color: #F7F5FF; */
 }
 .contact-me a{
     color: #6F60C6;
 }
 .connect{
-     background-color: #F1EDFF;
+     background-color: #F7F5FF;
      /* padding: 8rem; */
      width: 100%;
      border-radius: 1rem;
