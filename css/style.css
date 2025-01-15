@@ -185,6 +185,9 @@ footer a{
         padding-left: 16rem;
         padding-right: 16rem;
     }
+    .hero h1 {
+        font-size: 38px;
+    }
 
 }
 
