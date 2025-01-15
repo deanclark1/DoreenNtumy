@@ -20,7 +20,7 @@ body{
 }
 
 .hero{
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 .hero h1, h6{
     color: #6F60C6;
@@ -71,8 +71,11 @@ body{
     padding-top: 5rem;
 } */
 
-.skills{
+.projects {
     background-color: #F7F5FF;
+}
+.skills{
+    
 }
 .skills h6{
     color: #000;
@@ -156,12 +159,13 @@ footer a{
 
     .hero{
         padding-top: 8rem;
+        padding-bottom: 5rem;
     }
     .hero-text{
         padding-top: 3rem;
     }
     .about-me{
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
     }
     /* .about-txt{
         padding-top: 8rem;
