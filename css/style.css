@@ -20,12 +20,12 @@ body{
 }
 
 .hero{
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 .hero h1, h6{
     color: #6F60C6;
 }
-.hero-image img{
+.hero-image img, svg{
     width: 100%;
 }
 .hero-text{
